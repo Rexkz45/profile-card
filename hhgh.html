@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+       <script>
+        function abc(){
+          var num=parseInt(document.getElementById("nn").value);
+         if(num>0){
+             document.getElementById("tt").innerHTML="postive number";
+         }
+         else if(num<0){
+             document.getElementById("tt").innerHTML="negative number";
+         }
+         else{
+             document.getElementById("tt").innerHTML="zero";
+         }
+        }
+    </script>
+</head>
+<body>
+    <h1>take a number from user and find out <br>
+    weather its positive ,negative or zero ?</h1>
+    <input type="text" id="nn" placeholder="enter a number">
+    <br>
+    <button onclick="abc()">submit</button>
+    <div><span id="tt"></span></div>
+</body>
+</html>

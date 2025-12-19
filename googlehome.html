@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>google home page</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 9px 15px;
+            /* background-color: red; */
+        }
+        nav .left ul{
+            display: flex;
+            list-style-type: none;
+            /* margin-right: 10px; */
+            gap: 10px;
+        }
+        nav .left ul li a{
+            text-decoration: none;
+            font-size: 18px;
+            color: #000;
+           font-weight: 300; 
+
+        }
+nav .right{
+    display: flex;
+    gap: 15px;
+}
+nav .right span{
+    font-size: 18px;
+    color: #000;
+    font-weight: 300;
+}
+nav .right button{
+    background-color: rgb(28, 134, 240);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    border: none;
+    padding: 3px 6px;
+}
+nav .right i{
+    font-size: 24px;
+}
+    </style>
+    </head>
+    <body>
+        <nav>
+            <div class="left">
+                <ul>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Store">Store</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <span>Gmail</span>
+                <span>image</span>
+                <i class='bx bx-menu'></i>
+                <button>Sign in</button>
+            </div>
+        </nav>
+    </body>
+</html>
